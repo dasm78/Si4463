@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2688356939</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\WDSSrc\drivers\radio\radio_hal.c</file>
+      <file>$PROJ_DIR$\WDSSrc\application\radio.c</file>
+      <file>$PROJ_DIR$\WDSSrc\drivers\radio\radio_comm.c</file>
+      <file>$PROJ_DIR$\WDSSrc\drivers\radio\Si446x\si446x_api_lib.c</file>
+      <file>$PROJ_DIR$\WDSSrc\drivers\radio\Si446x\si446x_nirq.c</file>
+      <file>$PROJ_DIR$\Stm8Src\spi.c</file>
+      <file>$PROJ_DIR$\Stm8Src\main.c</file>
+      <file>$PROJ_DIR$\Stm8Src\GOLAY.C</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8mmn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\radio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Si4463Modem.pbd</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\WDSSrc\drivers\radio\Si446x\si446x_defs.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\radio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\si446x_api_lib.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\si446x_nirq.o</file>
+      <file>$PROJ_DIR$\WDSSrc\drivers\radio\radio_hal.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\si446x_nirq.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8mmd.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\WDSSrc\drivers\radio\Si446x\si446x_nirq.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\WDSSrc\drivers\compiler_defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\si446x_api_lib.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\GOLAY.o</file>
+      <file>$PROJ_DIR$\inc\stm8l15x_conf.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\radio_comm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\Si4463Modem.bin</file>
+      <file>$PROJ_DIR$\bsp.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GOLAY.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8mmn.a</file>
+      <file>$PROJ_DIR$\platform_defs.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\radio_hal.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\radio_hal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\radio_comm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\Si4463Modem.out</file>
+      <file>$PROJ_DIR$\WDSSrc\application\radio_config.h</file>
+      <file>$PROJ_DIR$\WDSSrc\application\radio.h</file>
+      <file>$PROJ_DIR$\WDSSrc\drivers\radio\Si446x\si446x_patch.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h</file>
+      <file>$PROJ_DIR$\Debug\List\Si4463Modem.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\WDSSrc\drivers\radio\Si446x\si446x_api_lib.h</file>
+      <file>$PROJ_DIR$\WDSSrc\drivers\radio\radio_comm.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8l151g6.icf</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\Debug\Exe\Stm8Lib.a</file>
+      <file>$PROJ_DIR$\hardware_defs.h</file>
+      <file>$PROJ_DIR$\Stm8Src\inc\spi.h</file>
+      <file>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\WDSSrc\drivers\radio\radio_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 33 50 75 76 62 61 23 68 67 19 31 63 77 51 37 45 38 40 24 25 73 64 10 9 69 53 14 41 71 26 59 17</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 44 33 50 75 76 62 61 23 68 67 19 31 63 77 51 37 45 38 40 24 25 73 64 10 9 69 53 14 41 71 26 59 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\WDSSrc\application\radio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 33 50 75 76 62 61 23 68 67 19 31 63</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 44 33 50 75 76 62 61 23 68 67 19 31 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\WDSSrc\drivers\radio\radio_comm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 33 50 75 76 62 61 23 68 67 19 31 63</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 44 33 50 75 76 62 61 23 68 67 19 31 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\WDSSrc\drivers\radio\Si446x\si446x_api_lib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 33 50 75 76 62 61 23 68 67 19 31 63 48 32 30 39 11 34 18 55 46 16 15 66</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 44 33 50 75 76 62 61 23 68 67 19 31 63 48 32 30 39 11 34 18 55 46 16 15 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\WDSSrc\drivers\radio\Si446x\si446x_nirq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 33 50 75 76 62 61 23 68 67 19 31 63</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 44 33 50 75 76 62 61 23 68 67 19 31 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Stm8Src\spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 37 45 38 40 24 25 73 77 64 10 9 69 53 14 41 71 26 59 17 44 33 50 75 76 62 61 23 68 67 19 31 63</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 51 37 45 38 40 24 25 73 77 64 10 9 69 53 14 41 71 26 59 17 44 33 50 75 76 62 61 23 68 67 19 31 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Stm8Src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71 51 37 45 38 40 24 25 73 77 64 10 9 69 53 14 41 26 59 17 75 15 32 30 39 11 34 18 55 16 66 46 44 33 50 76 62 61 23 68 67 19 31 63</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 71 51 37 45 38 40 24 25 73 77 64 10 9 69 53 14 41 26 59 17 75 15 32 30 39 11 34 18 55 16 66 46 44 33 50 76 62 61 23 68 67 19 31 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Stm8Src\GOLAY.C</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 32 30 39 11 34 18 55 16 66</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 15 32 30 39 11 34 18 55 16 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Si4463Modem.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 70 36 74 72 20 57 54 21 22 52 49 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 65 60</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

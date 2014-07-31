@@ -1,0 +1,84 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-715320428
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Bp0=_ 1 "STD_CODE2" "{$PROJ_DIR$\WDSSrc\drivers\radio\Si446x\si446x_api_lib.c}.88.5" 0 0 1 "" 0 ""
+Bp1=_ 1 "STD_CODE2" "{$PROJ_DIR$\Stm8Src\main.c}.145.2" 0 0 1 "" 0 ""
+Count=2
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[SfrWindow]
+Show=1 1
+Sort=4 0
+[watch_formats]
+Fmt0={W}0:chr	5	0
+Fmt1={W}0:tmp	4	0
+Fmt2={W}0:tmp2	4	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h}.150.3" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\Stm8Src\main.c}.313.3" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\Stm8Src\main.c}.268.9" 1 0 0 0 "" 0 ""
+Count=3
+[Aliases]
+A0=_ "C:\Si4463Modem\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c" ""
+A1=_ "C:\Si4463Modem\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c" ""
+A2=_ "C:\Si4463Modem\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c" ""
+A3=_ "C:\Si4463Modem\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c" ""
+Count=4
+SuppressDialog=1
